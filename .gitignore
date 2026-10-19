@@ -1,0 +1,45 @@
+
+# Environment Variables & Secrets
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/*.egg-info/
+
+# React / Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+**/build/
+
+# Database
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Uploaded Files & Vector Database
+**/uploads/
+**/chroma_db/
+**/vector_store/
+
+# Logs
+**/*.log
+**/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
